@@ -1,7 +1,8 @@
 # lattice generation from a kbest list using srilm toolkit
 
 ## Running 
-```./nbest-lattice -rescore data/kbest.res -dump-posteriors -write data/lattice.res -use-mesh
+```
+./nbest-lattice -rescore data/kbest.res -dump-posteriors -write data/lattice.res -use-mesh
 ```
 where best-lattice is a exe file in srilm toolkit, lattice.res is the output lattice, and kbest.res is the input kbest file as follows:
 ```
